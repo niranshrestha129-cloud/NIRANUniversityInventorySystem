@@ -1,0 +1,12 @@
+/**
+ * Thrown when an attempt is made to assign an inventory item that is
+ * currently unavailable. An item may be unavailable because it is already
+ * assigned to another staff member or has been removed from inventory.
+ *
+ * This version is uniquely named to avoid conflicts with other projects.
+ */
+public class NiranItemUnavailableException extends Exception {
+    public NiranItemUnavailableException(String message) {
+        super(message);
+    }
+}
