@@ -3,8 +3,8 @@
  * permitted by the system. Each staff member is restricted to a maximum
  * number of items (defined in {@link StaffMember#MAX_ITEMS}).
  */
-public class NiranAssignmentLimitExceededException extends Exception {
-    public NiranAssignmentLimitExceededException(String message) {
+public class AssignmentLimitExceededException extends Exception {
+    public AssignmentLimitExceededException(String message) {
         super(message);
     }
 }
